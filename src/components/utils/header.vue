@@ -25,12 +25,12 @@ const navigateTo = (hash) => {
         <div class="right-center">
             <a href="#about">
                 <div class="button-style-1">
-                    <h3>About Me</h3>
+                    <h3>Sobre mí</h3>
                 </div>
             </a>
             <a href="#experience">
                 <div class="button-style-1">
-                    <h3>Experience</h3>
+                    <h3>Experiencia</h3>
                 </div>
             </a>
             <a href="#skills">
@@ -40,34 +40,34 @@ const navigateTo = (hash) => {
             </a>
             <a href="#projects">
                 <div class="button-style-1">
-                    <h3>Projects</h3>
+                    <h3>Proyectos</h3>
                 </div>
             </a>
             <a href="#certificates">
                 <div class="button-style-1">
-                    <h3>Certificates</h3>
+                    <h3>Certificados</h3>
                 </div>
             </a>
-            <a href="https://github.com/KillahBlitz" target="_blank">
+            <a href="https://github.com/KapauCastle" target="_blank">
                 <div class="button-style-2">
                     <img src="/icons/logo_gh.png"/>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/monroy-jacobo" target="_blank">
+            <a href="https://www.linkedin.com/in/karen-paulina-blanco-castillo-65882419b" target="_blank">
                 <div class="button-style-2">
                         <img src="/icons/logo_ln.png"/>
                 </div>
             </a>
-            <a href="https://www.instagram.com/kinasis_dev/" target="_blank">
+            <a href="/CV/CV_Blanco_C._Karen_P..pdf" download class="icon-link">
                 <div class="button-style-2">
-                        <img src="/icons/logo_ig.png"/>
+                        <img src="/icons/logo_pf.png"/>
                 </div>
             </a>
         </div>
         <div class="left-separation">
             <a href="#contact">
                 <div class="button-style-3">
-                    <h3>Contact</h3>
+                    <h3>Contacto</h3>
                 </div>        
             </a>
             <div class="separator"></div>
@@ -81,12 +81,12 @@ const navigateTo = (hash) => {
         <div v-if="menuOpen" class="mobile-menu">
             <a href="#about" @click="closeMenu">
                 <div class="menu-item">
-                    <h3>About Me</h3>
+                    <h3>Sobre mí</h3>
                 </div>
             </a>
             <a href="#experience" @click="closeMenu">
                 <div class="menu-item">
-                    <h3>Experience</h3>
+                    <h3>Experiencia</h3>
                 </div>
             </a>
             <a href="#skills" @click="closeMenu">
@@ -96,17 +96,17 @@ const navigateTo = (hash) => {
             </a>
             <a href="#projects" @click="closeMenu">
                 <div class="menu-item">
-                    <h3>Projects</h3>
+                    <h3>Proyectos</h3>
                 </div>
             </a>
             <a href="#certificates" @click="closeMenu">
                 <div class="menu-item">
-                    <h3>Certificates</h3>
+                    <h3>Certificados</h3>
                 </div>
             </a>
             <router-link to="/contact" @click="closeMenu">
                 <div class="menu-item contact-item">
-                    <h3>Contact Me</h3>
+                    <h3>Contacto</h3>
                 </div>        
             </router-link>
         </div>
@@ -132,7 +132,7 @@ img {
     background: transparent;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(3px);
-    width: 75%;
+    width: 85%;
     box-sizing: border-box;
     position: fixed;
     top: 10px;
